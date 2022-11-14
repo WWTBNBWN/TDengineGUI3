@@ -2,7 +2,7 @@
 
 本人看到原仓库不在进行维护，所以本地打算将项目维护起来。本人正在对代码进行重构，正在快马加鞭优化中。希望您留下您的Star,您的Star将是我的动力。感谢~
 
-温馨提示：源码正在重构，下载源码版本可能不能正常运行下载请下载release版进行使用[wwtbnbwv1.0.0](https://gitee.com/wwtbnbw6688/tdengine-gui3/repository/archive/v1.0.0)
+温馨提示：源码正在重构，下载源码版本可能不能正常运行下载请下载release版进行使用[wwtbnbwv1.0.0](https://gitee.com/wwtbnbw6688/tdengine-gui3/releases/download/v1.0.0/WWTBNBW%20Setup%201.0.0.exe)
 
 TDengineGUI是一个基于electron构建的，针对时序数据库TDengine的图形化管理工具。具有跨平台、易于使用、版本适应性强等特点。
 
@@ -21,7 +21,7 @@ QQ群号：628594380
 
 ### 下载最新版可执行文件【源码正在重构可能不能正常运行下载release版进行使用】：
 
-[wwtbnbw](https://gitee.com/wwtbnbw6688/tdengine-gui3/repository/archive/v1.0.0)
+[wwtbnbw](https://gitee.com/wwtbnbw6688/tdengine-gui3/releases/download/v1.0.0/WWTBNBW%20Setup%201.0.0.exe)
 
 ### 通过源代码运行开发版本【源码正在重构目前不建议这种方式运行】：
 
