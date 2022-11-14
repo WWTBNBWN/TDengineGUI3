@@ -1,5 +1,9 @@
 # TDengineGUI
 
+本人看到原仓库不在进行维护，所以本地打算将项目维护起来。本人正在对代码进行重构，正在快马加鞭优化中。希望您留下您的Star,您的Star
+
+将是我的动力。感谢~
+
 TDengineGUI是一个基于electron构建的，针对时序数据库TDengine的图形化管理工具。具有跨平台、易于使用、版本适应性强等特点。
 
 ##  当前版本功能
@@ -11,13 +15,13 @@ TDengineGUI是一个基于electron构建的，针对时序数据库TDengine的�
 
 ## 如何获取
 
-### 下载最新版可执行文件：
+### 下载最新版可执行文件【源码正在重构可能不能正常运行下载release版进行使用】：
 
-[release v1.0.0](https://github.com/skye0207/TDengineGUI/releases/tag/v1.0.0)
+[wwtbnbw](https://gitee.com/wwtbnbw6688/tdengine-gui3/repository/archive/v1.0.0)
 
-### 通过源代码运行开发版本：
+### 通过源代码运行开发版本【源码正在重构目前不建议这种方式运行】：
 
-- 克隆项目: git clone https://github.com/skye0207/TDengineGUI.git
+- 克隆项目: git clone https://gitee.com/wwtbnbw6688/tdengine-gui3.git
 - 安装依赖: npm install
 - 启动开发版本: npm run start
 - 生成桌面应用（可选）: npm run build （生成在dist文件夹下）
@@ -33,48 +37,43 @@ TDengineGUI是一个基于electron构建的，针对时序数据库TDengine的�
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0225/195337_004fcbab_1803713.png "2.png")
 
 可以通过点击数据库后的删除图标，进行删除数据库操作。
- 
+
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0225/195350_4ee1db20_1803713.png "3.png")
- 
+
 可以通过点击添加数据库图标，进行添加数据库操作。可以在添加时选择数据库属性(具体属性含义请参考[tdengine官方文档](https://www.taosdata.com/cn/documentation/taos-sql#management))
- 
+
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0225/195404_7f1d3906_1803713.png "5.png")
- 
+
 可以通过点击服务器连接后的删除图标，进行删除数据库连接操作。
- 
+
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0225/195416_5a61f8b1_1803713.png "6.png")
- 
+
 选择要操作的数据库后，即可进入当前数据库操作界面。可以通过点击“切换”按钮调出数据库导航栏，切换要操作的数据库。当前数据库操作界面中分 超级表、表、控制台、数据库属性四个标签页。每个标签页都针对当前数据库进行显示与操作。
- 
+
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0225/195429_aaa36a97_1803713.png "7.png")
- 
+
 超级表（表）标签页中，左侧为超级表（表）的列表，可以进行删除与检索操作（添加、修改等操作后续版本将提供，当前版本如需增加数据表或者插入数据请使用控制台输入命令完成）。左侧则显示当前数据表的数据。
- 
+
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0225/195442_158e0dec_1803713.png "8.png")
- 
+
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0225/195455_4c28d96d_1803713.png "11.png")
- 
+
 可以对表数据进行时间段选择。
- 
+
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0225/195506_e06709c4_1803713.png "9.png")
- 
+
 可以对表数据进行时间字段过滤、排序、分页等操作。
- 
+
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0225/195519_ec81d271_1803713.png "10.png")
- 
+
 
 控制台中可以输入sql命令运行，并显示restful接口原始返回结果。控制台中输入的命令默认针对当前数据库进行操作，一般情况下不需要在表名称前附加数据库名称。但也可以通过“数据库名.表名”的方式操作其他数据库中的表。（结果显示方式，以后版本将改进）
- 
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0225/195530_5c5e66d8_1803713.png "12.png")
- 
-数据库属性显示当前数据库的一些基础属性，后期版本将加入属性修改功能。
- 
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0225/195541_ca8b8767_1803713.png "14.png")
 
- 
-现有bug:
-- [ ] 数据表控件高度需要根据每页条目数量自动调整，现在每页20条时需要上下滚动
-- [ ] 由于TDengine数据库对大数据集排序操作有限制，数据量大的情况下，时间倒序配置下检索数据会报错。
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0225/195530_5c5e66d8_1803713.png "12.png")
+
+数据库属性显示当前数据库的一些基础属性，后期版本将加入属性修改功能。
+
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0225/195541_ca8b8767_1803713.png "14.png")
 
 
 后期版本待完成功能:
