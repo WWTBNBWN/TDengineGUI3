@@ -9,7 +9,7 @@ TDengineGUI是一个基于electron构建的，针对时序数据库TDengine的�
 QQ群号：628594380
 
 ##  重构版本界面预览
-
+![输入图片说明](_img/QQ%E6%88%AA%E5%9B%BE20221120194806.png)
 
 ##  当前版本功能
 
